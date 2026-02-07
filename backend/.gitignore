@@ -1,0 +1,24 @@
+# Dependencies
+/vendor/
+
+# Environment
+.env
+.env.local
+
+# Logs
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Cache
+*.cache
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.lock
